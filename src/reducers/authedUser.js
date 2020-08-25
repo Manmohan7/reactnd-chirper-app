@@ -6,6 +6,6 @@ export default function authedUser(state = null, action) {
       return action.id
 
     default:
-      return action
+      return state
   }
 }
