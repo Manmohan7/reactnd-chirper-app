@@ -26,8 +26,8 @@ export default function tweets(state = {}, action) {
       if(tweet.replyingTo) {
         replyingTo = {
           [tweet.replyingTo]: {
-            ...state.tweets[tweet.replyingTo],
-            replies: state.tweets[tweet.replyingTo].replies.concat([tweet.id])
+            ...state[tweet.replyingTo],
+            replies: state[tweet.replyingTo].replies.concat([tweet.id])
           }
         }
       }
