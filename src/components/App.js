@@ -15,7 +15,7 @@ class App extends Component {
 
   render() {
     return (
-      <Router>
+      <Router basename="/reactnd-chirper-app">
         <Fragment>
           <LoadingBar />
           <div className='container'>
