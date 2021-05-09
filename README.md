@@ -4,16 +4,27 @@ This repo is a code-along with the first project in the [React Nanodegree progra
 
 Most of the commits in this repository correspond to videos in the program.
 
+## Working
+
+Click [here](https://manmohan7.github.io/reactnd-chirper-app/) to see this project in action.
+
 ## Project Setup
 
-* clone the Project - `git@github.com:udacity/reactnd-chirper-app.git`
+* clone the project - `https://github.com/Manmohan7/reactnd-chirper-app.git`
 * install the dependencies - `npm install`
 
-## Contributing
+## Development Server
 
-Because this is a code-along project and the commits correspond to specific videos in the program, we will not be accepting pull requests.
+Run `npm run start` for a dev server. Navigate to `http://localhost:3000/`. The app will automatically reload if you change any of the source files.
 
-If you feel like there's a major problem, please open an issue to discuss the problem and potential resolution.
+## Build
+
+Run `npm run build` to build the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+## Gh-pages
+
+To deploy the project on github pages, use the command `npm run deploy`.
 
 ## License
 
